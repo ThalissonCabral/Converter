@@ -1,0 +1,41 @@
+body{
+    background-image: url(./Imgs/Fundo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 2em;
+    width: 18em;
+}
+.input-container,.output-container{
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input-container{
+    background-color: rgb(98, 146, 24);
+}
+.output-container{
+    background-color: aqua;
+    word-break: break-all;
+    text-align: center;
+}
+input{
+    background-color: aqua;
+    height: 3em;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    font-size: 1em;
+}
+h1{
+    color: rgb(7, 83, 7);
+    padding: 1em;
+}
+
